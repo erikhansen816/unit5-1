@@ -24,7 +24,7 @@ if __name__ == '__main__':
         
     try:
         assert(numbers == pythonSort)
-        print('Your sort took', t1-t2, 'seconds')
+        print('Your sort took', t2-t1, 'seconds')
     except:
         print('Your sort did not work')
     
